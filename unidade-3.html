@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conclusão</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="lesson-body">
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+
+  <div class="lesson-layout">
+    <aside class="lesson-sidebar" id="lessonSidebar">
+      <div class="sidebar-top">
+        <h2 class="sidebar-course-title">
+  <a href="index.html">Título do curso</a>
+</h2>
+
+        <div class="sidebar-progress">
+          <span>100% completo</span>
+          <div class="sidebar-progress-bar">
+            <span style="width: 100%;"></span>
+          </div>
+        </div>
+      </div>
+		
+		
+
+<!-- navegação -->
+		
+<nav class="sidebar-nav" aria-label="Navegação do curso">
+  <a class="sidebar-link done" href="introducao.html">
+    <span class="sidebar-link-number">01</span>
+    <span class="sidebar-link-text">Introdução</span>
+    <span class="sidebar-link-dot" aria-hidden="true"></span>
+  </a>
+
+  <a class="sidebar-link done" href="unidade-1.html">
+    <span class="sidebar-link-number">02</span>
+    <span class="sidebar-link-text">Unidade 1</span>
+    <span class="sidebar-link-dot" aria-hidden="true"></span>
+  </a>
+
+  <a class="sidebar-link done" href="unidade-2.html">
+    <span class="sidebar-link-number">03</span>
+    <span class="sidebar-link-text">Unidade 2</span>
+    <span class="sidebar-link-dot" aria-hidden="true"></span>
+  </a>
+
+  <a class="sidebar-link active" href="conclusao.html">
+    <span class="sidebar-link-number">04</span>
+    <span class="sidebar-link-text">Conclusão</span>
+    <span class="sidebar-link-dot" aria-hidden="true"></span>
+  </a>
+
+</nav>
+	  </aside>	
+		
+<!-- conteúdo -->
+	  
+	  <main class="lesson-main">
+  <header class="lesson-hero">
+    <div class="lesson-hero-inner lesson-hero-inner-narrow">
+      <h1 class="lesson-hero-title">Conclusão</h1>
+      <div class="lesson-hero-line"></div>
+    </div>
+  </header>
+		
+<section class="lesson-hotspot" id="hotspot">
+		<p>
+		Phasellus nec blandit massa. Suspendisse congue eros in libero convallis sagittis. Ut tempus risus sed urna convallis, euismod ultrices turpis posuere. Donec elementum ligula nec orci pulvinar, ac tempus sem feugiat. Morbi convallis sem eget ante varius, pulvinar congue massa tempor. Integer mattis at metus laoreet tempor. Praesent interdum blandit dignissim. Aliquam id placerat arcu.
+        </p>
+		<p>
+		Duis vel euismod lacus. Quisque venenatis augue tristique dignissim bibendum. Ut sit amet iaculis erat. Morbi consequat tincidunt nunc. Phasellus sed risus id felis venenatis semper. Fusce venenatis venenatis nisi, sit amet hendrerit justo ullamcorper nec. Donec quis orci suscipit, imperdiet arcu sit amet, hendrerit lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        </p>
+  <div class="section-header section-header-stack">
+    <div>
+      <span class="eyebrow">Interação</span>
+      <h2 class="section-title">Imagem com pontos interativos</h2>
+      <div class="screen-note">Selecione um ponto para exibir o conteúdo correspondente.</div>
+    </div>
+  </div>
+
+  <div class="hotspot-layout">
+    <div class="hotspot-stage" aria-label="Imagem interativa com pontos">
+      <img src="images/imageteste.jpg" alt="Imagem com pontos interativos" class="hotspot-image">
+
+      <button
+        class="hotspot active"
+        style="top: 18%; left: 20%;"
+        data-title="Item 1"
+        data-text="Descrição do primeiro ponto de interação. Use este espaço para destacar conceitos, áreas da imagem, etapas ou observações relevantes."
+        aria-label="Abrir item 1"
+        type="button"
+      >1</button>
+
+      <button
+        class="hotspot"
+        style="top: 38%; left: 62%;"
+        data-title="Item 2"
+        data-text="Descrição do segundo ponto. O conteúdo pode aparecer em modal, sem ocupar espaço fixo ao lado da imagem."
+        aria-label="Abrir item 2"
+        type="button"
+      >2</button>
+
+      <button
+        class="hotspot"
+        style="top: 68%; left: 42%;"
+        data-title="Item 3"
+        data-text="Descrição do terceiro ponto. Esse padrão deixa a imagem centralizada e mantém a interação mais próxima do comportamento usado em cursos EAD."
+        aria-label="Abrir item 3"
+        type="button"
+      >3</button>
+    </div>
+  </div>
+
+  <div class="hotspot-modal" id="hotspotModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="hotspotTitle">
+    <div class="hotspot-modal-card">
+      <button class="hotspot-modal-close" id="hotspotClose" type="button" aria-label="Fechar modal">×</button>
+      <span class="card-chip">Ponto selecionado</span>
+      <h3 id="hotspotTitle">Item 1</h3>
+      <p id="hotspotText">Descrição do primeiro ponto de interação. Use este espaço para destacar conceitos, áreas da imagem, etapas ou observações relevantes.</p>
+    </div>
+  </div>
+</section>
+		     </main>	
+	   </div>
+	
+<a href="index.html" class="floating-next" aria-label="Voltar ao índice do curso">
+  Voltar ao índice
+  <span>↑</span>
+</a>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
